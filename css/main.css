@@ -14,12 +14,16 @@ main {
   width: 500px;
   height: 500px;
   justify-content: space-between;
+  align-items: flex-end;
+  margin: 20px auto;
 }
 main div {
-  font-size: 50px;
-
-  border-radius: 5px;
-  margin: 20px auto;
-  background-image: linear-gradient(to right, blue, red);
+  padding: 20px;
+  font-size: 30px;
   width: calc(500px / 3);
+  border-radius: 50px;
+  background-image: linear-gradient(to right, blue, red);
+}
+main .two {
+  align-self: flex-start;
 }
